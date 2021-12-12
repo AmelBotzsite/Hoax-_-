@@ -10,7 +10,7 @@ var kuhong = db.get('ojan'); // jan diubah
 }
 
 var listkey = ['sayahafiz', 'GRATISAN'];
-var creatorList = ['Jiro']; // Nama Lu Ngab
+var creatorList = ['Hafidz Abdillah']; // Nama Lu Ngab
 var creator = creatorList[Math.floor(Math.random() * creatorList.length)]; // Ini jan diubah
 var key = 'sayahafiz' // Apikey Lu Ngab
 
@@ -343,7 +343,7 @@ resolve({
       fb(url)
       .then((result) => {
      res.json({
-                 creator: 'Jiro',
+                 creator: 'Hafidz Abdillah',
                  status: true,
                  code: 200,
                  message: 'Jangan ditembak bang',
@@ -391,7 +391,7 @@ url: $('#downloadBox > a').attr('href')
       igvideo(url)
       .then((result) => {
      res.json({
-                 creator: 'Jiro',
+                 creator: 'Hafidz Abdillah',
                  status: true,
                  code: 200,
                  message: 'Jangan ditembak bang',
@@ -441,7 +441,7 @@ router.get('/downloader/mediafiredl', async (req, res, next) => {
         .then((data) => {
         	 var result = data;
              res.json({
-             	creator: 'Jiro',
+             	creator: 'Hafidz Abdillah',
                  status: true,
                  code: 200,
                  message: 'Jangan ditembak bang',
@@ -508,7 +508,7 @@ router.get('/downloader/ytmp3', async (req, res, next) => {
         .then((data) => {
         	 var result = data;
              res.json({
-             	creator: 'Jiro',
+             	creator: 'Hafidz Abdillah',
                  status: true,
                  code: 200,
                  message: 'Jangan ditembak bang',
@@ -574,7 +574,7 @@ router.get('/downloader/ytmp4', async (req, res, next) => {
         .then((data) => {
         var result = data;
              res.json({
-                 	creator: 'Jiro',
+                 	creator: 'Hafidz Abdillah',
                  status: true,
                  code: 200,
                  message: 'Jangan ditembak bang',
@@ -625,7 +625,7 @@ url: $('#downloadBox > a').attr('href')
       igtv(url)
       .then((result) => {
      res.json({
-                 creator: 'Jiro',
+                 creator: 'Hafidz Abdillah',
                  status: true,
                  code: 200,
                  message: 'Jangan ditembak bang',
@@ -692,7 +692,7 @@ router.get('/downloader/igfoto', async (req, res, next) => {
       .then(data => {
       	var result = data;
                  res.json({
-                 creator: 'Jiro',
+                 creator: 'Hafidz Abdillah',
                  status: true,
                  code: 200,
                  message: 'Jangan ditembak bang',
@@ -762,7 +762,7 @@ router.get('/downloader/igstory', async (req, res, next) => {
         .then((data) => {
         	 var result = data;
              res.json({
-             	creator: 'Jiro',
+             	creator: 'Hafidz Abdillah',
                  status: true,
                  code: 200,
                  message: 'Jangan ditembak bang',
@@ -816,7 +816,7 @@ router.get('/downloader/twdl', async (req, res, next) => {
         .then((data) => {
         	 var result = data;
              res.json({
-             	creator: 'Jiro',
+             	creator: 'Hafidz Abdillah',
                  status: true,
                  code: 200,
                  message: 'Jangan ditembak bang',
@@ -900,7 +900,7 @@ async function TiktokDownloader (Url) {
             TiktokDownloader(url)
             .then((result) => {
                 res.json({
-             	creator: 'Jiro',
+             	creator: 'Hafidz Abdillah',
                  status: true,
                  code: 200,
                  message: 'Jangan ditembak bang',
@@ -1078,7 +1078,7 @@ function doujindesu(query){
    doujindesu(query)
    .then((result) => {
      res.json({
-                 creator: 'Jiro',
+                 creator: 'Hafidz Abdillah',
                  status: true,
                  code: 200,
                  message: 'Jangan ditembak bang',
@@ -1103,7 +1103,7 @@ router.get('/anime/manga', async (req, res, next) => {
         .then(data => {
         var result = data;
              res.json({
-             	 creator: 'Jiro',
+             	 creator: 'Hafidz Abdillah',
                  status: true,
                  code: 200,
                  message: 'Jangan ditembak bang',
@@ -1363,7 +1363,7 @@ router.get('/anime/planetanime', async (req, res, next) => {
       anime(query)
       .then((result) => {
      res.json({
-                 creator: 'Jiro',
+                 creator: 'Hafidz Abdillah',
                  status: true,
                  code: 200,
                  message: 'Jangan ditembak bang',
@@ -1407,7 +1407,7 @@ return hasil
       dafontSearch(query)
       .then((result) => {
      res.json({
-                 creator: 'Jiro',
+                 creator: 'Hafidz Abdillah',
                  status: true,
                  code: 200,
                  message: 'Jangan ditembak bang',
@@ -1461,7 +1461,7 @@ router.get('/search/palingmurah', async (req, res, next) => {
           palingmurah(query)
         .then((result) => {
              res.json({
-             	creator: 'Jiro',
+             	creator: 'Hafidz Abdillah',
                  status: true,
                  code: 200,
                  message: 'Jangan ditembak bang',
@@ -1512,7 +1512,7 @@ resolve(result)
       apkmody(query)
       .then((result) => {
      res.json({
-                 creator: 'Jiro',
+                 creator: 'Hafidz Abdillah',
                  status: true,
                  code: 200,
                  message: 'Jangan ditembak bang',
@@ -1562,7 +1562,7 @@ router.get('/search/wikipedia', async (req, res, next) => {
         .then((data) => {
         	 var result = data;
              res.json({
-             	creator: 'Jiro',
+             	creator: 'Hafidz Abdillah',
                  status: true,
                  code: 200,
                  message: 'Jangan ditembak bang',
@@ -1627,7 +1627,7 @@ router.get('/search/trendtwit', async (req, res, next) => {
         .then((data) => {
         	 var result = data;
              res.json({
-             	creator: 'Jiro',
+             	creator: 'Hafidz Abdillah',
                  status: true,
                  code: 200,
                  message: 'Jangan ditembak bang',
@@ -1700,7 +1700,7 @@ router.get('/search/hapymod', async (req, res, next) => {
           mody(query)
         .then((result) => {
              res.json({
-             	creator: 'Jiro',
+             	creator: 'Hafidz Abdillah',
                  status: true,
                  code: 200,
                  message: 'Jangan ditembak bang',
@@ -1729,7 +1729,7 @@ router.get('/search/chord', async (req, res, next) => {
       .then((data) => {
       	var result = data;
      res.json({
-                 creator: 'Jiro',
+                 creator: 'Hafidz Abdillah',
                  status: true,
                  code: 200,
                  message: 'Jangan ditembak bang',
@@ -1793,7 +1793,7 @@ function getLirik(query) {
       .then((data) => {
       	var result = data;
      res.json({
-                 creator: 'Jiro',
+                 creator: 'Hafidz Abdillah',
                  status: true,
                  code: 200,
                  message: 'Jangan ditembak bang',
@@ -1872,7 +1872,7 @@ router.get('/search/kodepos', async (req, res, next) => {
       .then((data) => {
       	var result = data;
      res.json({
-                 creator: 'Jiro',
+                 creator: 'Hafidz Abdillah',
                  status: true,
                  code: 200,
                  message: 'Jangan ditembak bang',
@@ -1924,7 +1924,7 @@ router.get('/search/grupwa', async (req, res, next) => {
       linkwa(query)
       .then((result) => {
      res.json({
-                 creator: 'Jiro',
+                 creator: 'Hafidz Abdillah',
                  status: true,
                  code: 200,
                  message: 'Jangan ditembak bang',
@@ -2025,7 +2025,7 @@ router.get('/search/pinterest', async (req, res, next) => {
       pinterest(query)
       .then((result) => {
      res.json({
-                 creator: 'Jiro',
+                 creator: 'Hafidz Abdillah',
                  status: true,
                  code: 200,
                  message: 'Jangan ditembak bang',
@@ -2096,7 +2096,7 @@ router.get('/search/infoloker', async (req, res, next) => {
       .then((data) => {
       	var result = data;
      res.json({
-                 creator: 'Jiro',
+                 creator: 'Hafidz Abdillah',
                  status: true,
                  code: 200,
                  message: 'Jangan ditembak bang',
@@ -2144,7 +2144,7 @@ router.get('/game/asahotak', async (req, res, next) => {
       .then((data) => {
       	var result = data;
      res.json({
-                 creator: 'Jiro',
+                 creator: 'Hafidz Abdillah',
                  status: true,
                  code: 200,
                  message: 'Jangan ditembak bang',
@@ -2633,7 +2633,7 @@ router.get('/game/caklontong', async (req, res, next) => {
 
            var lontong = cak[Math.floor(Math.random() * cak.length)]
              res.json({
-             	creator: 'Jiro',
+             	creator: 'Hafidz Abdillah',
                  status: true,
                  code: 200,
                  message: 'Jangan ditembak bang',
@@ -2688,7 +2688,7 @@ router.get('/game/tebakgambar', async (req, res, next) => {
                .then((data) => {
                	var result = data;
              res.json({
-             	creator: 'Jiro',
+             	creator: 'Hafidz Abdillah',
                  status: true,
                  code: 200,
                  message: 'Jangan ditembak bang',
@@ -2964,7 +2964,7 @@ router.get('/game/family100', async (req, res, next) => {
 
            var imly = fam[Math.floor(Math.random() * fam.length)]
              res.json({
-             	 creator: 'Jiro',
+             	 creator: 'Hafidz Abdillah',
                  status: true,
                  code: 200,
                  message: 'Jangan ditembak bang',
@@ -3144,7 +3144,7 @@ router.get('/game/tebaklirik', async (req, res, next) => {
 
            var lirik = tebak[Math.floor(Math.random() * tebak.length)]
              res.json({
-             	 creator: 'Jiro',
+             	 creator: 'Hafidz Abdillah',
                  status: true,
                  code: 200,
                  message: 'Jangan ditembak bang',
@@ -4545,7 +4545,7 @@ router.get('/game/susunkata', async (req, res, next) => {
     
           var upan = url[Math.floor(Math.random() * url.length)]
           res.json({
-                 creator: 'Jiro',
+                 creator: 'Hafidz Abdillah',
                  status: true,
                  code: 200,
                  message: 'Jangan ditembak bang',
@@ -4605,7 +4605,7 @@ router.get('/game/truth', async (req, res, next) => {
     
           var upan = url[Math.floor(Math.random() * url.length)]
           res.json({
-                 creator: 'Jiro',
+                 creator: 'Hafidz Abdillah',
                  status: true,
                  code: 200,
                  message: 'Jangan ditembak bang',
@@ -4632,7 +4632,7 @@ router.get('/random/quotesdilan ', async (req, res, next) => {
       	var result = data;
            var dilan = result[Math.floor(Math.random() * result.length)]
      res.json({
-                 creator: 'Jiro',
+                 creator: 'Hafidz Abdillah',
                  status: true,
                  code: 200,
                  message: 'Jangan ditembak bang',
@@ -4693,7 +4693,7 @@ router.get('/game/dare', async (req, res, next) => {
     
           var upan = url[Math.floor(Math.random() * url.length)]
           res.json({
-                 creator: 'Jiro',
+                 creator: 'Hafidz Abdillah',
                  status: true,
                  code: 200,
                  message: 'Jangan ditembak bang',
@@ -5943,7 +5943,7 @@ router.get('/random/quotes', async (req, res, next) => {
   
     var tes = quo[Math.floor(Math.random() * quo.length)]
              res.json({
-                 creator: 'Jiro',
+                 creator: 'Hafidz Abdillah',
                  status: true,
                  code: 200,
                  message: 'Jangan ditembak bang',
@@ -6009,7 +6009,7 @@ router.get('/random/quotesad', async (req, res, next) => {
 ]
             var quotes = quote[Math.floor(Math.random() * quote.length)]
              res.json({
-                 creator: 'Jiro',
+                 creator: 'Hafidz Abdillah',
                  status: true,
                  code: 200,
                  message: 'Jangan ditembak bang',
@@ -6047,7 +6047,7 @@ router.get('/random/katailham', async (req, res, next) => {
 
     var ham = il[Math.floor(Math.random() * il.length)]
      res.json({
-                 creator: 'Jiro',
+                 creator: 'Hafidz Abdillah',
                  status: true,
                  code: 200,
                  message: 'Jangan ditembak bang',
@@ -6090,7 +6090,7 @@ router.get('/random/bacotandilan', async (req, res, next) => {
 
     var lan = di[Math.floor(Math.random() * di.length)]
      res.json({
-                 creator: 'Jiro',
+                 creator: 'Hafidz Abdillah',
                  status: true,
                  code: 200,
                  message: 'Jangan ditembak bang',
@@ -6138,7 +6138,7 @@ router.get('/random/quotesislami', async (req, res, next) => {
 
     var lami = is[Math.floor(Math.random() * is.length)]
      res.json({
-                 creator: 'Jiro',
+                 creator: 'Hafidz Abdillah',
                  status: true,
                  code: 200,
                  message: 'Jangan ditembak bang',
@@ -6357,7 +6357,7 @@ router.get('/random/quotesanime', async (req, res, next) => {
 ]
          var anim = anime[Math.floor(Math.random() * anime.length)]
              res.json({
-                 creator: 'Jiro',
+                 creator: 'Hafidz Abdillah',
                  status: true,
                  code: 200,
                  message: 'Jangan ditembak bang',
@@ -6603,7 +6603,7 @@ router.get('/others/fakedata', async (req, res, next) => {
       	axios.get('https://randomuser.me/api/?results=50').then(r => {
           var random_pict = r.data.results[Math.floor(Math.random() * r.data.results.length)];
           res.json({
-                 creator: 'Jiro',
+                 creator: 'Hafidz Abdillah',
                  status: true,
                  code: 200,
                  message: 'Jangan ditembak bang',
@@ -6741,7 +6741,7 @@ res.sendFile(invalidKey)
 
 router.get('/others/ucapan', async (req, res) => {
         timeZone = req.query.timeZone
-    if (!timeZone) return res.json({ status : false, creator : `Jiro`, message : "masukan parameter timeZone"})
+    if (!timeZone) return res.json({ status : false, creator : `Hafidz Abdillah`, message : "masukan parameter timeZone"})
 
     try {
      WaktuJKt = new Date().toLocaleString("en-US", {timeZone: timeZone});
@@ -6780,7 +6780,7 @@ router.get('/others/ucapan', async (req, res) => {
         }
 
     res.json({
-        creator: 'Jiro',
+        creator: 'Hafidz Abdillah',
                  status: true,
                  code: 200,
                  message: 'Jangan ditembak bang',
@@ -6788,7 +6788,7 @@ router.get('/others/ucapan', async (req, res) => {
     })
     } catch (e) {
         console.log(e)
-        res.json({ status : false, creator : `Jiro`, message : "Eror Bang, Report Cepat Ke Owner"})
+        res.json({ status : false, creator : `Hafidz Abdillah`, message : "Eror Bang, Report Cepat Ke Owner"})
     }
 
 })
@@ -6797,8 +6797,8 @@ router.get('/others/hitungmundur', async (req, res) => {
         bulan = req.query.bulan
         tanggal = req.query.tanggal
 
-    if (!bulan) return res.json({ status : false, creator : `Jiro`, message : "masukan parameter bulan"})
-    if (!tanggal) return res.json({ status : false, creator : `Jiro`, message : "masukan parameter tanggal"})
+    if (!bulan) return res.json({ status : false, creator : `Hafidz Abdillah`, message : "masukan parameter bulan"})
+    if (!tanggal) return res.json({ status : false, creator : `Hafidz Abdillah`, message : "masukan parameter tanggal"})
 
     try {
     var countDownDate = new Date(`${bulan} ${tanggal}, 2021 00:00:00`).getTime();
@@ -6815,7 +6815,7 @@ router.get('/others/hitungmundur', async (req, res) => {
 		}
 
     res.json({
-         creator: 'Jiro',
+         creator: 'Hafidz Abdillah',
          status: true,
          code: 200,
           message: 'Jangan ditembak bang',
@@ -6823,7 +6823,7 @@ router.get('/others/hitungmundur', async (req, res) => {
     })
     } catch (e) {
         console.log(e)
-        res.json({ status : false, creator : `Jiro`, message : "Eror, Harap Report Ke Owner"})
+        res.json({ status : false, creator : `Hafidz Abdillah`, message : "Eror, Harap Report Ke Owner"})
     }
 })
 
@@ -6930,7 +6930,7 @@ router.get('/others/heroml', async (req, res, next) => {
        .then(async(data) => {
         var result = data;
              res.json({
-             	 creator: 'Jiro',
+             	 creator: 'Hafidz Abdillah',
                  status: true,
                  code: 200,
                  message: 'Jangan ditembak bang',
@@ -7105,7 +7105,7 @@ router.get('/others/emojiscrape', async (req, res, next) => {
         .then(data => {
         	 var result = data;
              res.json({
-             	creator: 'Jiro',
+             	creator: 'Hafidz Abdillah',
                  status: true,
                  code: 200,
                  message: 'Jangan ditembak bang',
@@ -7334,7 +7334,7 @@ router.get('/primbon/artinama', async (req, res, next) => {
       .then((data) => {
       	var result = data;
      res.json({
-                 creator: 'Jiro',
+                 creator: 'Hafidz Abdillah',
                  status: true,
                  code: 200,
                  message: 'Jangan ditembak bang',
@@ -7383,7 +7383,7 @@ router.get('/primbon/artimimpi', async (req, res, next) => {
       .then((data) => {
       	var result = data;
      res.json({
-                 creator: 'Jiro',
+                 creator: 'Hafidz Abdillah',
                  status: true,
                  code: 200,
                  message: 'Jangan ditembak bang',
@@ -7420,7 +7420,7 @@ if(listkey.includes(apikeyInput)){
 
 var result = `Kecocokan Berdasarkan Nama :\n\n${d}`
          res.json({
-	        creator: 'Jiro',
+	        creator: 'Hafidz Abdillah',
                  status: true,
                  code: 200,
                  message: 'Jangan ditembak bang',
@@ -7482,7 +7482,7 @@ router.get('/primbon/nomorhoki', async (req, res, next) => {
            nomorhoki(query)
            .then(async(data) => {      
              res.json({
-                 creator: 'Jiro',
+                 creator: 'Hafidz Abdillah',
                  status: true,
                  code: 200,
                  message: 'Jangan ditembak bang',
